@@ -1,0 +1,264 @@
+@media (max-width: 768px) {
+    .section-title p {
+        margin: 0 16%;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-toggle i {
+        color: #fff;
+        font-size: 22px !important;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        border: 0;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+        text-align: right;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+    .home-intro .intro-caption p {
+        margin: 0 17%;
+    }
+    .services .content .text p {
+        margin-right: 0;
+    }
+    .services .content .service-icon .line {
+        position: absolute;
+        top: 7px;
+        left: 26%;
+        background: #64dd17;
+        width: 2px;
+        height: 27px;
+    }
+    .counter .content {
+        margin-bottom: 30px;
+    }
+    .pricing .content {
+        margin: 0;
+    }
+    .pricing .content .title .lined {
+        position: absolute;
+        bottom: 0;
+        background: #64dd17;
+        width: 40px;
+        height: 2px;
+        margin: 0 auto;
+        text-align: center;
+        left: 37%;
+    }
+    .testimonial .content {
+        margin: 0 2%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 640px) {
+    .section-title p {
+        margin: 0 11%;
+    }
+    .home-intro .intro-caption p {
+        margin: 0 15%;
+    }
+    .services .content {
+        margin-bottom: 30px;
+    }
+    .services .content.no-mb {
+        margin-bottom: 0;
+    }
+    .services .content .text p {
+        margin-right: 48%;
+    }
+    .services .content .service-icon .line {
+        position: absolute;
+        top: 7px;
+        left: 10%;
+        background: #64dd17;
+        width: 2px;
+        height: 27px;
+    }
+    .counter .content.no-mb {
+        margin-bottom: 0;
+    }
+    .pricing .content {
+        margin-bottom: 30px;
+    }
+    .pricing .content.no-mb {
+        margin-bottom: 0;
+    }
+    .pricing .content .title .lined {
+        position: absolute;
+        bottom: 0;
+        background: #64dd17;
+        width: 40px;
+        height: 2px;
+        margin: 0 auto;
+        text-align: center;
+        left: 46%;
+    }
+    .testimonial .content {
+        margin: 0 5%;
+    }
+    .testimonial .owl-prev {
+        position: absolute;
+        top: 56%;
+        left: 10%;
+        width: 40px;
+        height: 40px;
+        background: transparent !important;
+        overflow: hidden;
+        border-radius: 0 !important;
+        transition: all .5s ease;
+        opacity: 0;
+    }
+    .testimonial .owl-next {
+        position: absolute;
+        top: 56%;
+        right: 10%;
+        width: 40px;
+        height: 40px;
+        background: transparent !important;
+        overflow: hidden;
+        border-radius: 0 !important;
+        transition: all .5s ease;
+        opacity: 0;
+    }
+    .contact .content-map {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title p {
+        margin: 0 9%;
+    }
+    .home-intro .intro-caption p {
+        margin: 0 4%;
+    }
+    .services .content .service-icon .line {
+        position: absolute;
+        top: 7px;
+        left: 14%;
+        background: #64dd17;
+        width: 2px;
+        height: 27px;
+    }
+    .services .content .text p {
+        margin-right: 27%;
+    }
+    .work .work-menu ul li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0 8px;
+        cursor: pointer;
+        padding: 6px 20px;
+        border: 2px solid #64dd17;
+        border-radius: 20px;
+        transition: .5s ease;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    .pricing .content .title .lined {
+        position: absolute;
+        bottom: 0;
+        background: #64dd17;
+        width: 40px;
+        height: 2px;
+        margin: 0 auto;
+        text-align: center;
+        left: 45%;
+    }
+    .testimonial .owl-prev {
+        position: absolute;
+        top: 58%;
+        left: 15%;
+        width: 40px;
+        height: 40px;
+        background: transparent !important;
+        overflow: hidden;
+        border-radius: 0 !important;
+        transition: all .5s ease;
+        opacity: 1;
+    }
+    .testimonial .owl-next {
+        position: absolute;
+        top: 58%;
+        right: 15%;
+        width: 40px;
+        height: 40px;
+        background: transparent !important;
+        overflow: hidden;
+        border-radius: 0 !important;
+        transition: all .5s ease;
+        opacity: 1;
+    }
+    .testimonial .owl-nav .disabled {
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 360px) {
+    .section-title p {
+        margin: 0 0;
+    }
+    .home-intro .intro-caption {
+        position: absolute;
+        top: 36%;
+        left: 0;
+        color: #fff;
+        text-align: center;
+    }
+    .home-intro .intro-caption h2 {
+        font-size: 30px;
+    }
+    .services .content .service-icon .line {
+        position: absolute;
+        top: 7px;
+        left: 18%;
+        background: #64dd17;
+        width: 2px;
+        height: 27px;
+    }
+    .services .content .text p {
+        margin-right: 0;
+    }
+    .pricing .content .title .lined {
+        position: absolute;
+        bottom: 0;
+        background: #64dd17;
+        width: 40px;
+        height: 2px;
+        margin: 0 auto;
+        text-align: center;
+        left: 43%;
+    }
+    .testimonial .content {
+        margin: 0;
+    }
+}
